@@ -6,7 +6,7 @@
 <script>
 
 export default {
-  name : 'v-table',
+  name: 'v-table',
   props: {
     user_data :{
       type: Array,
@@ -19,5 +19,3 @@ export default {
   computed: {}
 }
 </script>
-
-divw;lekf;
