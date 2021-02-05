@@ -1,6 +1,5 @@
 <template>
   <div class="v-table">
-    <h1></h1>
   </div>
 </template>
 
@@ -8,8 +7,17 @@
 
 export default {
   name : 'v-table',
-  components: {},
+  props: {
+    user_data :{
+      type: Array,
+      default: () => {
+        return []
+      }
+    }
+  },
   methods: {},
   computed: {}
 }
 </script>
+
+divw;lekf;
