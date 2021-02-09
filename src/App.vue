@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <v-table/>
-    <p>Hello</p>
+    <v-table
+      :users_data="USERS"
+    />
   </div>
 </template>
 
@@ -34,7 +35,7 @@ export default {
 }
 </script>
 
-<style lang >
+<style>
 </style>
 
 
